@@ -1,6 +1,7 @@
 import { createContext, useContext, useEffect, useReducer, useCallback } from 'react';
 
-const BASE_URL = 'http://worldwise-numan.vercel.app/api';
+const BASE_URL = 'https://worldwise-numan.vercel.app/api';
+
 const CitiesContext = createContext();
 
 const initialState = {
