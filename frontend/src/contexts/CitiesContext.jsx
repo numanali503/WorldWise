@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useReducer, useCallback } from 'react';
 
-const BASE_URL = 'http://localhost:3000/api';
+const BASE_URL = 'http://worldwise-numan/api';
 const CitiesContext = createContext();
 
 const initialState = {
